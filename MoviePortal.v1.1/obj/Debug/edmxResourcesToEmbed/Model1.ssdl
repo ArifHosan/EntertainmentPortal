@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MovieFoundModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="MovieInfoes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Year" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Rated" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Released" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Runtime" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Genre" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Director" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Writer" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Actors" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Plot" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Language" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Country" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Awards" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Poster" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="MetaScore" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ImdbRating" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ImdbVotes" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="imdbId" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Type" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="TomatoMeter" Type="nvarchar(max)" />
+    <Property Name="TomatoImage" Type="nvarchar(max)" />
+    <Property Name="TomatoRating" Type="nvarchar(max)" />
+    <Property Name="TomatoUserMeter" Type="nvarchar(max)" />
+    <Property Name="TomatoUserRating" Type="nvarchar(max)" />
+    <Property Name="TomatoUserReviews" Type="nvarchar(max)" />
+    <Property Name="TomatoReviews" Type="nvarchar(max)" />
+    <Property Name="TomatoFresh" Type="nvarchar(max)" />
+    <Property Name="TomatoRotten" Type="nvarchar(max)" />
+    <Property Name="TomatoConsensus" Type="nvarchar(max)" />
+    <Property Name="TomatoURL" Type="nvarchar(max)" />
+    <Property Name="DVD" Type="nvarchar(max)" />
+    <Property Name="BoxOffice" Type="nvarchar(max)" />
+    <Property Name="Production" Type="nvarchar(max)" />
+    <Property Name="Website" Type="nvarchar(max)" />
+    <Property Name="Response" Type="nvarchar(max)" />
+    <Property Name="TotalSeasons" Type="nvarchar(max)" />
+    <Property Name="FurtherImage" Type="nvarchar(max)" />
+    <Property Name="Status" Type="nvarchar(max)" />
+    <Property Name="Network" Type="nvarchar(max)" />
+    <Property Name="Tagline" Type="nvarchar(max)" />
+    <Property Name="Budget" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="MovieInfoes_NewTV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MovieInfoes_PopularMovieInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MovieInfoes_ReleaseMovie">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MovieInfoes_TopTV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MovieInfoes_WatchList">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_NewTV_inherits_MovieInfo">
+    <End Role="MovieInfoes" Type="Self.MovieInfoes" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="MovieInfoes_NewTV" Type="Self.MovieInfoes_NewTV" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="MovieInfoes">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="MovieInfoes_NewTV">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PopularMovieInfo_inherits_MovieInfo">
+    <End Role="MovieInfoes" Type="Self.MovieInfoes" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="MovieInfoes_PopularMovieInfo" Type="Self.MovieInfoes_PopularMovieInfo" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="MovieInfoes">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="MovieInfoes_PopularMovieInfo">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ReleaseMovie_inherits_MovieInfo">
+    <End Role="MovieInfoes" Type="Self.MovieInfoes" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="MovieInfoes_ReleaseMovie" Type="Self.MovieInfoes_ReleaseMovie" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="MovieInfoes">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="MovieInfoes_ReleaseMovie">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TopTV_inherits_MovieInfo">
+    <End Role="MovieInfoes" Type="Self.MovieInfoes" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="MovieInfoes_TopTV" Type="Self.MovieInfoes_TopTV" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="MovieInfoes">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="MovieInfoes_TopTV">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_WatchList_inherits_MovieInfo">
+    <End Role="MovieInfoes" Type="Self.MovieInfoes" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="MovieInfoes_WatchList" Type="Self.MovieInfoes_WatchList" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="MovieInfoes">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="MovieInfoes_WatchList">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MovieFoundModelStoreContainer">
+    <EntitySet Name="MovieInfoes" EntityType="Self.MovieInfoes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MovieInfoes_NewTV" EntityType="Self.MovieInfoes_NewTV" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MovieInfoes_PopularMovieInfo" EntityType="Self.MovieInfoes_PopularMovieInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MovieInfoes_ReleaseMovie" EntityType="Self.MovieInfoes_ReleaseMovie" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MovieInfoes_TopTV" EntityType="Self.MovieInfoes_TopTV" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MovieInfoes_WatchList" EntityType="Self.MovieInfoes_WatchList" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_NewTV_inherits_MovieInfo" Association="Self.FK_NewTV_inherits_MovieInfo">
+      <End Role="MovieInfoes" EntitySet="MovieInfoes" />
+      <End Role="MovieInfoes_NewTV" EntitySet="MovieInfoes_NewTV" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PopularMovieInfo_inherits_MovieInfo" Association="Self.FK_PopularMovieInfo_inherits_MovieInfo">
+      <End Role="MovieInfoes" EntitySet="MovieInfoes" />
+      <End Role="MovieInfoes_PopularMovieInfo" EntitySet="MovieInfoes_PopularMovieInfo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ReleaseMovie_inherits_MovieInfo" Association="Self.FK_ReleaseMovie_inherits_MovieInfo">
+      <End Role="MovieInfoes" EntitySet="MovieInfoes" />
+      <End Role="MovieInfoes_ReleaseMovie" EntitySet="MovieInfoes_ReleaseMovie" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TopTV_inherits_MovieInfo" Association="Self.FK_TopTV_inherits_MovieInfo">
+      <End Role="MovieInfoes" EntitySet="MovieInfoes" />
+      <End Role="MovieInfoes_TopTV" EntitySet="MovieInfoes_TopTV" />
+    </AssociationSet>
+    <AssociationSet Name="FK_WatchList_inherits_MovieInfo" Association="Self.FK_WatchList_inherits_MovieInfo">
+      <End Role="MovieInfoes" EntitySet="MovieInfoes" />
+      <End Role="MovieInfoes_WatchList" EntitySet="MovieInfoes_WatchList" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

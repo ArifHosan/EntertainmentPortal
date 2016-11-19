@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d8a9e7b3eae9443a996117ececc80843" Name="Diagram1" ShowGrid="true" >
+        <EntityTypeShape EntityType="MovieFoundModel.MovieInfo1" Width="2.125" PointX="6.25" PointY="0.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="MovieFoundModel.MovieInfoes_NewTV" Width="1.875" PointX="11.125" PointY="2.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="MovieFoundModel.MovieInfoes_PopularMovieInfo" Width="2.375" PointX="8.5" PointY="2.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="MovieFoundModel.MovieInfoes_ReleaseMovie" Width="2.25" PointX="3.75" PointY="2.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="MovieFoundModel.MovieInfoes_TopTV" Width="2" PointX="1.5" PointY="2.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="MovieFoundModel.MovieInfoes_WatchList" Width="2" PointX="6.25" PointY="2.75" IsExpanded="false" />
+        <AssociationConnector Association="MovieFoundModel.FK_NewTV_inherits_MovieInfo" />
+        <AssociationConnector Association="MovieFoundModel.FK_PopularMovieInfo_inherits_MovieInfo" />
+        <AssociationConnector Association="MovieFoundModel.FK_ReleaseMovie_inherits_MovieInfo" />
+        <AssociationConnector Association="MovieFoundModel.FK_TopTV_inherits_MovieInfo" />
+        <AssociationConnector Association="MovieFoundModel.FK_WatchList_inherits_MovieInfo" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MovieFoundModelStoreContainer" CdmEntityContainer="MovieFoundEntities">
+    <EntitySetMapping Name="MovieInfo1">
+      <EntityTypeMapping TypeName="MovieFoundModel.MovieInfo1">
+        <MappingFragment StoreEntitySet="MovieInfoes">
+          <ScalarProperty Name="Budget" ColumnName="Budget" />
+          <ScalarProperty Name="Tagline" ColumnName="Tagline" />
+          <ScalarProperty Name="Network" ColumnName="Network" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="FurtherImage" ColumnName="FurtherImage" />
+          <ScalarProperty Name="TotalSeasons" ColumnName="TotalSeasons" />
+          <ScalarProperty Name="Response" ColumnName="Response" />
+          <ScalarProperty Name="Website" ColumnName="Website" />
+          <ScalarProperty Name="Production" ColumnName="Production" />
+          <ScalarProperty Name="BoxOffice" ColumnName="BoxOffice" />
+          <ScalarProperty Name="DVD" ColumnName="DVD" />
+          <ScalarProperty Name="TomatoURL" ColumnName="TomatoURL" />
+          <ScalarProperty Name="TomatoConsensus" ColumnName="TomatoConsensus" />
+          <ScalarProperty Name="TomatoRotten" ColumnName="TomatoRotten" />
+          <ScalarProperty Name="TomatoFresh" ColumnName="TomatoFresh" />
+          <ScalarProperty Name="TomatoReviews" ColumnName="TomatoReviews" />
+          <ScalarProperty Name="TomatoUserReviews" ColumnName="TomatoUserReviews" />
+          <ScalarProperty Name="TomatoUserRating" ColumnName="TomatoUserRating" />
+          <ScalarProperty Name="TomatoUserMeter" ColumnName="TomatoUserMeter" />
+          <ScalarProperty Name="TomatoRating" ColumnName="TomatoRating" />
+          <ScalarProperty Name="TomatoImage" ColumnName="TomatoImage" />
+          <ScalarProperty Name="TomatoMeter" ColumnName="TomatoMeter" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="imdbId" ColumnName="imdbId" />
+          <ScalarProperty Name="ImdbVotes" ColumnName="ImdbVotes" />
+          <ScalarProperty Name="ImdbRating" ColumnName="ImdbRating" />
+          <ScalarProperty Name="MetaScore" ColumnName="MetaScore" />
+          <ScalarProperty Name="Poster" ColumnName="Poster" />
+          <ScalarProperty Name="Awards" ColumnName="Awards" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+          <ScalarProperty Name="Plot" ColumnName="Plot" />
+          <ScalarProperty Name="Actors" ColumnName="Actors" />
+          <ScalarProperty Name="Writer" ColumnName="Writer" />
+          <ScalarProperty Name="Director" ColumnName="Director" />
+          <ScalarProperty Name="Genre" ColumnName="Genre" />
+          <ScalarProperty Name="Runtime" ColumnName="Runtime" />
+          <ScalarProperty Name="Released" ColumnName="Released" />
+          <ScalarProperty Name="Rated" ColumnName="Rated" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MovieInfoes_NewTV">
+      <EntityTypeMapping TypeName="MovieFoundModel.MovieInfoes_NewTV">
+        <MappingFragment StoreEntitySet="MovieInfoes_NewTV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MovieInfoes_PopularMovieInfo">
+      <EntityTypeMapping TypeName="MovieFoundModel.MovieInfoes_PopularMovieInfo">
+        <MappingFragment StoreEntitySet="MovieInfoes_PopularMovieInfo">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MovieInfoes_ReleaseMovie">
+      <EntityTypeMapping TypeName="MovieFoundModel.MovieInfoes_ReleaseMovie">
+        <MappingFragment StoreEntitySet="MovieInfoes_ReleaseMovie">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MovieInfoes_TopTV">
+      <EntityTypeMapping TypeName="MovieFoundModel.MovieInfoes_TopTV">
+        <MappingFragment StoreEntitySet="MovieInfoes_TopTV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MovieInfoes_WatchList">
+      <EntityTypeMapping TypeName="MovieFoundModel.MovieInfoes_WatchList">
+        <MappingFragment StoreEntitySet="MovieInfoes_WatchList">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
