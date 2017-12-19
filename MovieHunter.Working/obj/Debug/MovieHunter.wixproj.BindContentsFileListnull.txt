@@ -1,0 +1,28 @@
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\bin\Debug\\Movie.UI.exe
+..\Movie.UI\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+..\Movie.UI\bin\Debug\config.json
+..\Movie.UI\bin\Debug\ConnectionLayer.dll
+..\Movie.UI\bin\Debug\ConnectionLayer.pdb
+..\Movie.UI\bin\Debug\DataLayer.dll
+..\Movie.UI\bin\Debug\DataLayer.pdb
+..\Movie.UI\bin\Debug\EntityFramework.dll
+..\Movie.UI\bin\Debug\EntityFramework.SqlServer.dll
+..\Movie.UI\bin\Debug\EntityFramework.SqlServer.xml
+..\Movie.UI\bin\Debug\EntityFramework.xml
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\bin\Debug\\Movie.UI.exe.config
+..\Movie.UI\bin\Debug\icons-v2.png
+..\Movie.UI\bin\Debug\Interop.ShockwaveFlashObjects.dll
+..\Movie.UI\bin\Debug\MetroFramework.dll
+..\Movie.UI\bin\Debug\MetroFramework.Design.dll
+..\Movie.UI\bin\Debug\MetroFramework.Fonts.dll
+..\Movie.UI\bin\Debug\Models.dll
+..\Movie.UI\bin\Debug\Models.pdb
+..\Movie.UI\bin\Debug\Movie.LogicLayer.dll
+..\Movie.UI\bin\Debug\Movie.LogicLayer.pdb
+..\Movie.UI\bin\Debug\Movie.UI.pdb
+..\Movie.UI\bin\Debug\MovieDatabase.mdf
+..\Movie.UI\bin\Debug\MovieDatabase_log.ldf
+..\Movie.UI\bin\Debug\movies-for-lunar-new-year.ico
+..\Movie.UI\bin\Debug\Newtonsoft.Json.dll
+..\Movie.UI\bin\Debug\Newtonsoft.Json.xml
+..\Movie.UI\bin\Debug\TMDbLib.dll

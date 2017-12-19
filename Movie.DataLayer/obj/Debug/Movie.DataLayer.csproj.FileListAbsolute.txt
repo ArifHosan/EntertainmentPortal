@@ -1,0 +1,48 @@
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\DataLayer\bin\Debug\DataLayer.dll.config
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\DataLayer\bin\Debug\DataLayer.dll
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\DataLayer\bin\Debug\DataLayer.pdb
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\DataLayer\bin\Debug\EntityFramework.dll
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\DataLayer\bin\Debug\Models.dll
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\DataLayer\bin\Debug\Models.pdb
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\DataLayer\bin\Debug\EntityFramework.xml
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\DataLayer\obj\Debug\Movie.DataLayer.csprojResolveAssemblyReference.cache
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\DataLayer\obj\Debug\DataLayer.dll
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\DataLayer\obj\Debug\DataLayer.pdb
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.DataLayer\bin\Debug\DataLayer.dll.config
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.DataLayer\bin\Debug\DataLayer.dll
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.DataLayer\bin\Debug\DataLayer.pdb
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.DataLayer\bin\Debug\EntityFramework.dll
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.DataLayer\bin\Debug\Models.dll
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.DataLayer\bin\Debug\Models.pdb
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.DataLayer\bin\Debug\EntityFramework.xml
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.DataLayer\obj\Debug\Movie.DataLayer.csprojResolveAssemblyReference.cache
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.DataLayer\obj\Debug\DataLayer.dll
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.DataLayer\obj\Debug\DataLayer.pdb
+C:\Users\student\Downloads\MovieSolution\Movie.DataLayer\bin\Debug\DataLayer.dll.config
+C:\Users\student\Downloads\MovieSolution\Movie.DataLayer\bin\Debug\DataLayer.dll
+C:\Users\student\Downloads\MovieSolution\Movie.DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\student\Downloads\MovieSolution\Movie.DataLayer\bin\Debug\EntityFramework.dll
+C:\Users\student\Downloads\MovieSolution\Movie.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\student\Downloads\MovieSolution\Movie.DataLayer\bin\Debug\Models.dll
+C:\Users\student\Downloads\MovieSolution\Movie.DataLayer\bin\Debug\Models.pdb
+C:\Users\student\Downloads\MovieSolution\Movie.DataLayer\bin\Debug\EntityFramework.xml
+C:\Users\student\Downloads\MovieSolution\Movie.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\student\Downloads\MovieSolution\Movie.DataLayer\obj\Debug\Movie.DataLayer.csprojResolveAssemblyReference.cache
+C:\Users\student\Downloads\MovieSolution\Movie.DataLayer\obj\Debug\DataLayer.dll
+C:\Users\student\Downloads\MovieSolution\Movie.DataLayer\obj\Debug\DataLayer.pdb
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.DataLayer\bin\Debug\DataLayer.dll.config
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.DataLayer\bin\Debug\DataLayer.dll
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.DataLayer\bin\Debug\DataLayer.pdb
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.DataLayer\bin\Debug\EntityFramework.dll
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.DataLayer\bin\Debug\Models.dll
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.DataLayer\bin\Debug\Models.pdb
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.DataLayer\bin\Debug\EntityFramework.xml
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.DataLayer\obj\Debug\Movie.DataLayer.csprojResolveAssemblyReference.cache
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.DataLayer\obj\Debug\DataLayer.dll
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.DataLayer\obj\Debug\DataLayer.pdb

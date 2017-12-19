@@ -1,0 +1,116 @@
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\bin\Debug\Movie.UI.exe.config
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\bin\Debug\Movie.UI.exe
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\bin\Debug\Movie.UI.pdb
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\bin\Debug\MetroFramework.Design.dll
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\bin\Debug\MetroFramework.dll
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\bin\Debug\MetroFramework.Fonts.dll
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\obj\Debug\Movie.UI.csprojResolveAssemblyReference.cache
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\obj\Debug\Movie.UI.Properties.Resources.resources
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\obj\Debug\Movie.UI.csproj.GenerateResource.Cache
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\obj\Debug\Movie.UI.exe
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\obj\Debug\Movie.UI.pdb
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\obj\Debug\Movie.UI.Home.resources
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\obj\Debug\Movie.UI.StartupSignupControl.resources
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\bin\Debug\Models.dll
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\bin\Debug\Movie.LogicLayer.dll
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\bin\Debug\DataLayer.dll
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\bin\Debug\EntityFramework.dll
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\bin\Debug\EntityFramework.SqlServer.dll
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\bin\Debug\Models.pdb
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\bin\Debug\Movie.LogicLayer.pdb
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\bin\Debug\DataLayer.pdb
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\bin\Debug\EntityFramework.xml
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\bin\Debug\EntityFramework.SqlServer.xml
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\obj\Debug\Movie.UI.Startup.resources
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\bin\Debug\ConnectionLayer.dll
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\bin\Debug\TMDbLib.dll
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\bin\Debug\Newtonsoft.Json.dll
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\bin\Debug\ConnectionLayer.pdb
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\bin\Debug\Newtonsoft.Json.xml
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\obj\Debug\Movie.UI.StartupLoginControl.resources
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\obj\Debug\Movie.UI.Panels.HomeMovieInfoShort.resources
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\obj\Debug\Movie.UI.Panels.BrowseMovie.resources
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\obj\Debug\Movie.UI.Loading.resources
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\obj\Debug\Movie.UI.Details.resources
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\obj\Debug\Movie.UI.Panels.SearchMovie.resources
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\obj\Debug\Movie.UI.Panels.Favorites.resources
+F:\Education Stuff\Projects\OOP2\N-Tier\MovieSolution\Movie.UI\obj\Debug\Movie.UI.About.resources
+C:\Users\student\Downloads\MovieSolution\Movie.UI\bin\Debug\Movie.UI.exe.config
+C:\Users\student\Downloads\MovieSolution\Movie.UI\obj\Debug\Movie.UI.exe
+C:\Users\student\Downloads\MovieSolution\Movie.UI\obj\Debug\Movie.UI.pdb
+C:\Users\student\Downloads\MovieSolution\Movie.UI\obj\Debug\Movie.UI.csprojResolveAssemblyReference.cache
+C:\Users\student\Downloads\MovieSolution\Movie.UI\obj\Debug\Movie.UI.About.resources
+C:\Users\student\Downloads\MovieSolution\Movie.UI\obj\Debug\Movie.UI.Details.resources
+C:\Users\student\Downloads\MovieSolution\Movie.UI\obj\Debug\Movie.UI.Home.resources
+C:\Users\student\Downloads\MovieSolution\Movie.UI\obj\Debug\Movie.UI.Loading.resources
+C:\Users\student\Downloads\MovieSolution\Movie.UI\obj\Debug\Movie.UI.Panels.BrowseMovie.resources
+C:\Users\student\Downloads\MovieSolution\Movie.UI\obj\Debug\Movie.UI.Panels.HomeMovieInfoShort.resources
+C:\Users\student\Downloads\MovieSolution\Movie.UI\obj\Debug\Movie.UI.Panels.SearchMovie.resources
+C:\Users\student\Downloads\MovieSolution\Movie.UI\obj\Debug\Movie.UI.StartupLoginControl.resources
+C:\Users\student\Downloads\MovieSolution\Movie.UI\obj\Debug\Movie.UI.Panels.Favorites.resources
+C:\Users\student\Downloads\MovieSolution\Movie.UI\obj\Debug\Movie.UI.Properties.Resources.resources
+C:\Users\student\Downloads\MovieSolution\Movie.UI\obj\Debug\Movie.UI.Startup.resources
+C:\Users\student\Downloads\MovieSolution\Movie.UI\obj\Debug\Movie.UI.StartupSignupControl.resources
+C:\Users\student\Downloads\MovieSolution\Movie.UI\obj\Debug\Movie.UI.csproj.GenerateResource.Cache
+C:\Users\student\Downloads\MovieSolution\Movie.UI\bin\Debug\Movie.UI.exe
+C:\Users\student\Downloads\MovieSolution\Movie.UI\bin\Debug\Movie.UI.pdb
+C:\Users\student\Downloads\MovieSolution\Movie.UI\bin\Debug\MetroFramework.Design.dll
+C:\Users\student\Downloads\MovieSolution\Movie.UI\bin\Debug\MetroFramework.dll
+C:\Users\student\Downloads\MovieSolution\Movie.UI\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\student\Downloads\MovieSolution\Movie.UI\bin\Debug\Models.dll
+C:\Users\student\Downloads\MovieSolution\Movie.UI\bin\Debug\Movie.LogicLayer.dll
+C:\Users\student\Downloads\MovieSolution\Movie.UI\bin\Debug\TMDbLib.dll
+C:\Users\student\Downloads\MovieSolution\Movie.UI\bin\Debug\ConnectionLayer.dll
+C:\Users\student\Downloads\MovieSolution\Movie.UI\bin\Debug\DataLayer.dll
+C:\Users\student\Downloads\MovieSolution\Movie.UI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\student\Downloads\MovieSolution\Movie.UI\bin\Debug\EntityFramework.dll
+C:\Users\student\Downloads\MovieSolution\Movie.UI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\student\Downloads\MovieSolution\Movie.UI\bin\Debug\Movie.LogicLayer.pdb
+C:\Users\student\Downloads\MovieSolution\Movie.UI\bin\Debug\Models.pdb
+C:\Users\student\Downloads\MovieSolution\Movie.UI\bin\Debug\ConnectionLayer.pdb
+C:\Users\student\Downloads\MovieSolution\Movie.UI\bin\Debug\DataLayer.pdb
+C:\Users\student\Downloads\MovieSolution\Movie.UI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\student\Downloads\MovieSolution\Movie.UI\bin\Debug\EntityFramework.xml
+C:\Users\student\Downloads\MovieSolution\Movie.UI\bin\Debug\EntityFramework.SqlServer.xml
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\bin\Debug\Movie.UI.exe.config
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\bin\Debug\Movie.UI.exe
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\bin\Debug\Movie.UI.pdb
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\bin\Debug\MetroFramework.Design.dll
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\bin\Debug\MetroFramework.dll
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\bin\Debug\MetroFramework.Fonts.dll
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\bin\Debug\Models.dll
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\bin\Debug\Movie.LogicLayer.dll
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\bin\Debug\TMDbLib.dll
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\bin\Debug\ConnectionLayer.dll
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\bin\Debug\DataLayer.dll
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\bin\Debug\Newtonsoft.Json.dll
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\bin\Debug\EntityFramework.dll
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\bin\Debug\EntityFramework.SqlServer.dll
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\bin\Debug\Movie.LogicLayer.pdb
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\bin\Debug\Models.pdb
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\bin\Debug\ConnectionLayer.pdb
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\bin\Debug\DataLayer.pdb
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\bin\Debug\Newtonsoft.Json.xml
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\bin\Debug\EntityFramework.xml
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\bin\Debug\EntityFramework.SqlServer.xml
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\obj\Debug\Movie.UI.csprojResolveAssemblyReference.cache
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\obj\Debug\Movie.UI.About.resources
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\obj\Debug\Movie.UI.Details.resources
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\obj\Debug\Movie.UI.Home.resources
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\obj\Debug\Movie.UI.Loading.resources
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\obj\Debug\Movie.UI.Panels.BrowseMovie.resources
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\obj\Debug\Movie.UI.Panels.HomeMovieInfoShort.resources
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\obj\Debug\Movie.UI.Panels.SearchMovie.resources
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\obj\Debug\Movie.UI.StartupLoginControl.resources
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\obj\Debug\Movie.UI.Panels.Favorites.resources
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\obj\Debug\Movie.UI.Properties.Resources.resources
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\obj\Debug\Movie.UI.Startup.resources
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\obj\Debug\Movie.UI.StartupSignupControl.resources
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\obj\Debug\Movie.UI.csproj.GenerateResource.Cache
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\obj\Debug\Movie.UI.exe
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\obj\Debug\Movie.UI.pdb
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\bin\Debug\Interop.ShockwaveFlashObjects.dll
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\obj\Debug\Interop.ShockwaveFlashObjects.dll
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\Movie.UI\obj\Debug\Movie.UI.csproj.ResolveComReference.cache

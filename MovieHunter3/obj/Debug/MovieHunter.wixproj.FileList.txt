@@ -1,0 +1,8 @@
+obj\Debug\Product.wixobj
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\MovieHunter\bin\Debug\da-dk\MovieHunter.msi
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\MovieHunter\bin\Debug\da-dk\MovieHunter.wixpdb
+obj\Debug\MovieHunter.wixproj.BindContentsFileListda-dk.txt
+obj\Debug\MovieHunter.wixproj.BindOutputsFileListda-dk.txt
+obj\Debug\MovieHunter.wixproj.BindBuiltOutputsFileListda-dk.txt
+obj\Debug\SampleWixUIAddDlgLoc.wixobj
+obj\Debug\UserRegistrationDlg.wixobj

@@ -1,0 +1,3 @@
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\MovieHunter\bin\Debug\Sample.cab
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\MovieHunter\bin\Debug\MovieHunter.msi
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\MovieHunter\bin\Debug\MovieHunter.wixpdb

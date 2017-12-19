@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='Windows-1252'?>
+<Wix xmlns='http://schemas.microsoft.com/wix/2006/wi'>
+  <Product Name='Movie Hunter' Id='AC41F645-AEF2-43E1-8431-7DCF706D96B3' UpgradeCode='{575B0225-DF1F-4C1B-8964-84E2E5F6CA5B}'
+    Language='1033' Codepage='1252' Version='1.0.1' Manufacturer='MovieMagic'>
+
+    <Package Id='*' Keywords='Installer' Description="Movie Hunter Installer"
+      Comments="This will install Movie Hunter on your PC" Manufacturer='MovieMagic'
+      InstallerVersion='100' Languages='1033' Compressed='yes' SummaryCodepage='1252' />
+
+    <Media Id='1' Cabinet='Sample.cab' EmbedCab='no'/>
+    <Directory Id='TARGETDIR' Name='SourceDir'>
+      <Directory Id='ProgramFilesFolder' Name='PFiles'>
+        <Directory Id='MovieMagic' Name='Movie Magic'>
+          <Directory Id='INSTALLDIR' Name='Movie Hunter 1.0.0'>
+
+            <Component Id='MainExecutable' Guid='{A0DFCB7A-A302-425E-A0F1-7DF07B42A329}'>
+              <File Id='HunterEXE' Name='Movie.UI.exe' DiskId='1' Source='..\Movie.UI\bin\Debug\Movie.UI.exe' KeyPath='yes'>
+                <Shortcut Id="startmenuHunter10" Directory="ProgramMenuDir" Name="Movie Hunter 1.0" WorkingDirectory='INSTALLDIR' Icon="movieIcon.ico" IconIndex="0" Advertise="yes" />
+                <Shortcut Id="desktopHunter10" Directory="DesktopFolder" Name="Movie Hunter 1.0" WorkingDirectory='INSTALLDIR' Icon="movieIcon.ico" IconIndex="0" Advertise="yes" />
+              </File>
+            </Component>
+            <Component Id="comp_001" Guid="{C4FB4849-D24B-4D5C-A136-FF144F8526E5}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+              <File Id="AxInterop.ShockwaveFlashObjects" DiskId="1" Hidden="no" ReadOnly="no" TrueType="no" System="no" Vital="yes"
+                    Name="AxInterop.ShockwaveFlashObjects.dll" Source="..\Movie.UI\bin\Debug\AxInterop.ShockwaveFlashObjects.dll" KeyPath="yes" />
+            </Component>
+            <Component Id="comp_002" Guid="{31465996-17CA-4633-9FF9-EA53D3A927BE}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+              <File Id="config" DiskId="1" Hidden="no" ReadOnly="no" TrueType="no" System="no" Vital="yes"
+                    Name="config.json" Source="..\Movie.UI\bin\Debug\config.json" KeyPath="yes" />
+            </Component>
+            <Component Id="comp_003" Guid="{DAAFDF98-5DF2-4A49-AAA4-D5215A41D6F4}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+              <File Id="ConnectionLayer" DiskId="1" Hidden="no" ReadOnly="no" TrueType="no" System="no" Vital="yes"
+                    Name="ConnectionLayer.dll" Source="..\Movie.UI\bin\Debug\ConnectionLayer.dll" KeyPath="yes" />
+            </Component>
+            <Component Id="comp_004" Guid="{65EFD1AE-2CEB-483B-9BFB-D945B54432DE}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+              <File Id="ConnectionLayer2" DiskId="1" Hidden="no" ReadOnly="no" TrueType="no" System="no" Vital="yes"
+                    Name="ConnectionLayer.pdb" Source="..\Movie.UI\bin\Debug\ConnectionLayer.pdb" KeyPath="yes" />
+            </Component>
+            <Component Id="comp_005" Guid="{D2BA8A71-CC0F-4439-9D57-9663C5848DC1}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+              <File Id="DataLayer" DiskId="1" Hidden="no" ReadOnly="no" TrueType="no" System="no" Vital="yes"
+                    Name="DataLayer.dll" Source="..\Movie.UI\bin\Debug\DataLayer.dll" KeyPath="yes" />
+            </Component>
+            <Component Id="comp_006" Guid="{578CD230-780A-4081-86EB-CE1ABE33F4B4}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+              <File Id="DataLayer2" DiskId="1" Hidden="no" ReadOnly="no" TrueType="no" System="no" Vital="yes"
+                    Name="DataLayer.pdb" Source="..\Movie.UI\bin\Debug\DataLayer.pdb" KeyPath="yes" />
+            </Component>
+            <Component Id="comp_007" Guid="{AFBD2822-E637-466D-9029-CD37ACE42748}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+              <File Id="EntityFramework" DiskId="1" Hidden="no" ReadOnly="no" TrueType="no" System="no" Vital="yes"
+                    Name="EntityFramework.dll" Source="..\Movie.UI\bin\Debug\EntityFramework.dll" KeyPath="yes" />
+            </Component>
+            <Component Id="comp_008" Guid="{91048079-9315-4C1B-AE6B-C4BF7FFFA3E9}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+              <File Id="EntityFramework.SqlServer" DiskId="1" Hidden="no" ReadOnly="no" TrueType="no" System="no" Vital="yes"
+                    Name="EntityFramework.SqlServer.dll" Source="..\Movie.UI\bin\Debug\EntityFramework.SqlServer.dll" KeyPath="yes" />
+            </Component>
+            <Component Id="comp_009" Guid="{0C1CF190-AA49-471C-ACF5-C6B5D5856147}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+              <File Id="EntityFramework.SqlServer2" DiskId="1" Hidden="no" ReadOnly="no" TrueType="no" System="no" Vital="yes"
+                    Name="EntityFramework.SqlServer.xml" Source="..\Movie.UI\bin\Debug\EntityFramework.SqlServer.xml" KeyPath="yes" />
+            </Component>
+            <Component Id="comp_010" Guid="{BEE01631-A437-4ECD-911F-F584859929D8}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+              <File Id="EntityFramework2" DiskId="1" Hidden="no" ReadOnly="no" TrueType="no" System="no" Vital="yes"
+                    Name="EntityFramework.xml" Source="..\Movie.UI\bin\Debug\EntityFramework.xml" KeyPath="yes" />
+            </Component>
+            <Component Id="comp_011" Guid="{4EF2A339-50A8-47DD-BDFA-E2963482F660}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+              <File Id="iconsv2" DiskId="1" Hidden="no" ReadOnly="no" TrueType="no" System="no" Vital="yes"
+                    Name="icons-v2.png" Source="..\Movie.UI\bin\Debug\icons-v2.png" KeyPath="yes" />
+            </Component>
+            <Component Id="comp_012" Guid="{AB69C7CC-2C62-4B91-A3EE-AEA909C7145F}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+              <File Id="Interop.ShockwaveFlashObjects" DiskId="1" Hidden="no" ReadOnly="no" TrueType="no" System="no" Vital="yes"
+                    Name="Interop.ShockwaveFlashObjects.dll" Source="..\Movie.UI\bin\Debug\Interop.ShockwaveFlashObjects.dll" KeyPath="yes" />
+            </Component>
+            <Component Id="comp_013" Guid="{2183E9A3-387B-45DD-B559-6F329C8E5A56}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+              <File Id="MetroFramework.Design" DiskId="1" Hidden="no" ReadOnly="no" TrueType="no" System="no" Vital="yes"
+                    Name="MetroFramework.Design.dll" Source="..\Movie.UI\bin\Debug\MetroFramework.Design.dll" KeyPath="yes" />
+            </Component>
+            <Component Id="comp_014" Guid="{83348F4F-456A-4DCA-8E2B-A93CBAAA180F}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+              <File Id="MetroFramework" DiskId="1" Hidden="no" ReadOnly="no" TrueType="no" System="no" Vital="yes"
+                    Name="MetroFramework.dll" Source="..\Movie.UI\bin\Debug\MetroFramework.dll" KeyPath="yes" />
+            </Component>
+            <Component Id="comp_015" Guid="{2661E85F-6FA4-4458-A24F-56DA398312E9}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+              <File Id="MetroFramework.Fonts" DiskId="1" Hidden="no" ReadOnly="no" TrueType="no" System="no" Vital="yes"
+                    Name="MetroFramework.Fonts.dll" Source="..\Movie.UI\bin\Debug\MetroFramework.Fonts.dll" KeyPath="yes" />
+            </Component>
+            <Component Id="comp_016" Guid="{6B27411F-2004-47B3-8E5A-17AD7626439D}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+              <File Id="Models" DiskId="1" Hidden="no" ReadOnly="no" TrueType="no" System="no" Vital="yes"
+                    Name="Models.dll" Source="..\Movie.UI\bin\Debug\Models.dll" KeyPath="yes" />
+            </Component>
+            <Component Id="comp_017" Guid="{57D2FDD6-6EA1-4D3C-BBE9-2C6EE40C7531}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+              <File Id="Models2" DiskId="1" Hidden="no" ReadOnly="no" TrueType="no" System="no" Vital="yes"
+                    Name="Models.pdb" Source="..\Movie.UI\bin\Debug\Models.pdb" KeyPath="yes" />
+            </Component>
+            <Component Id="comp_018" Guid="{5A2B31DA-7BCE-4BF7-9EC0-88894B623881}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+              <File Id="Movie.LogicLayer" DiskId="1" Hidden="no" ReadOnly="no" TrueType="no" System="no" Vital="yes"
+                    Name="Movie.LogicLayer.dll" Source="..\Movie.UI\bin\Debug\Movie.LogicLayer.dll" KeyPath="yes" />
+            </Component>
+            <Component Id="comp_019" Guid="{5DE66855-258E-4D22-95C1-0161273DD6BB}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+              <File Id="Movie.LogicLayer2" DiskId="1" Hidden="no" ReadOnly="no" TrueType="no" System="no" Vital="yes"
+                    Name="Movie.LogicLayer.pdb" Source="..\Movie.UI\bin\Debug\Movie.LogicLayer.pdb" KeyPath="yes" />
+            </Component>
+            <!--<Component Id="comp_020" Guid="{71A51306-10AF-4C57-ADA7-6968D60FCD8B}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+              <File Id="Movie.UI" DiskId="1" Hidden="no" ReadOnly="no" TrueType="no" System="no" Vital="yes"
+                    Name="Movie.UI.exe" Source="..\Movie.UI\bin\Debug\Movie.UI.exe" KeyPath="yes" />
+            </Component>-->
+            <Component Id="comp_021" Guid="{DCDE3A9B-C02C-409B-8B8C-C9CF094FB8BB}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+              <File Id="Movie.UIconfig" DiskId="1" Hidden="no" ReadOnly="no" TrueType="no" System="no" Vital="yes"
+                    Name="Movie.UI.exe.config" Source="..\Movie.UI\bin\Debug\Movie.UI.exe.config" KeyPath="yes" />
+            </Component>
+            <Component Id="comp_022" Guid="{7F49A26E-4015-416C-91B5-D10A895BA5EC}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+              <File Id="Movie.UI2" DiskId="1" Hidden="no" ReadOnly="no" TrueType="no" System="no" Vital="yes"
+                    Name="Movie.UI.pdb" Source="..\Movie.UI\bin\Debug\Movie.UI.pdb" KeyPath="yes" />
+            </Component>
+            <Component Id="comp_023" Guid="{61301E6B-93B1-40BC-B1BD-FB5740008EB9}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+              <File Id="MovieDatabase" DiskId="1" Hidden="no" ReadOnly="no" TrueType="no" System="no" Vital="yes"
+                    Name="MovieDatabase.mdf" Source="..\Movie.UI\bin\Debug\MovieDatabase.mdf" KeyPath="yes" />
+            </Component>
+            <Component Id="comp_024" Guid="{16FB1493-16EB-4757-A007-85C723821B94}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+              <File Id="MovieDatabase_log" DiskId="1" Hidden="no" ReadOnly="no" TrueType="no" System="no" Vital="yes"
+                    Name="MovieDatabase_log.ldf" Source="..\Movie.UI\bin\Debug\MovieDatabase_log.ldf" KeyPath="yes" />
+            </Component>
+            <Component Id="comp_025" Guid="{345F0658-8B4F-4B0F-B9D6-10DF063E6C36}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+              <File Id="movies" DiskId="1" Hidden="no" ReadOnly="no" TrueType="no" System="no" Vital="yes"
+                    Name="movies-for-lunar-new-year.ico" Source="..\Movie.UI\bin\Debug\movies-for-lunar-new-year.ico" KeyPath="yes" />
+            </Component>
+            <Component Id="comp_026" Guid="{A81F1CB3-BFE6-48F7-A58A-F280A5A1B1D5}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+              <File Id="Newtonsoft.Json" DiskId="1" Hidden="no" ReadOnly="no" TrueType="no" System="no" Vital="yes"
+                    Name="Newtonsoft.Json.dll" Source="..\Movie.UI\bin\Debug\Newtonsoft.Json.dll" KeyPath="yes" />
+            </Component>
+            <Component Id="comp_027" Guid="{E0B3A519-BF61-4C28-AEF4-C4BDBF87B6F4}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+              <File Id="Newtonsoft.Json2" DiskId="1" Hidden="no" ReadOnly="no" TrueType="no" System="no" Vital="yes"
+                    Name="Newtonsoft.Json.xml" Source="..\Movie.UI\bin\Debug\Newtonsoft.Json.xml" KeyPath="yes" />
+            </Component>
+            <Component Id="comp_028" Guid="{95F9C00F-2F63-44E1-9FC9-67B6F933BB61}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+              <File Id="TMDbLib" DiskId="1" Hidden="no" ReadOnly="no" TrueType="no" System="no" Vital="yes"
+                    Name="TMDbLib.dll" Source="..\Movie.UI\bin\Debug\TMDbLib.dll" KeyPath="yes" />
+            </Component>
+          </Directory>
+        </Directory>
+      </Directory>
+
+      <Directory Id="ProgramMenuFolder" Name="Programs">
+        <Directory Id="ProgramMenuDir" Name="Movie Hunter 1.0">
+          <Component Id="ProgramMenuDir" Guid="{647A0317-EF56-4002-8C6B-D677A68BE1CC}">
+            <RemoveFolder Id='ProgramMenuDir' On='uninstall' />
+            <RegistryValue Root='HKCU' Key='Software\[ProductName]' Type='string' Value='' KeyPath='yes' />
+          </Component>
+        </Directory>
+      </Directory>
+
+      <Directory Id="DesktopFolder" Name="Desktop" />
+    </Directory>
+
+    <Feature Id='Complete' Level='1' Display='expand' ConfigurableDirectory='INSTALLDIR'>
+      
+      <ComponentRef Id='MainExecutable' />
+      <ComponentRef Id='ProgramMenuDir' />
+      <ComponentRef Id="comp_001" />
+      <ComponentRef Id="comp_002" />
+      <ComponentRef Id="comp_003" />
+      <ComponentRef Id="comp_004" />
+      <ComponentRef Id="comp_005" />
+      <ComponentRef Id="comp_006" />
+      <ComponentRef Id="comp_007" />
+      <ComponentRef Id="comp_008" />
+      <ComponentRef Id="comp_009" />
+      <ComponentRef Id="comp_010" />
+      <ComponentRef Id="comp_011" />
+      <ComponentRef Id="comp_012" />
+      <ComponentRef Id="comp_013" />
+      <ComponentRef Id="comp_014" />
+      <ComponentRef Id="comp_015" />
+      <ComponentRef Id="comp_016" />
+      <ComponentRef Id="comp_017" />
+      <ComponentRef Id="comp_018" />
+      <ComponentRef Id="comp_019" />
+      <!--<ComponentRef Id="comp_020" />-->
+      <ComponentRef Id="comp_021" />
+      <ComponentRef Id="comp_022" />
+      <ComponentRef Id="comp_023" />
+      <ComponentRef Id="comp_024" />
+      
+      <ComponentRef Id="comp_025" />
+      <ComponentRef Id="comp_026" />
+      <ComponentRef Id="comp_027" />
+      <ComponentRef Id="comp_028" />
+    </Feature>
+
+    <Property Id="WIXUI_INSTALLDIR" Value="INSTALLDIR" />
+    <UIRef Id="WixUI_InstallDir"/>
+    <UIRef Id="WixUI_ErrorProgressText" />
+    <Icon Id="movieIcon.ico" SourceFile="..\Movie.UI\bin\Debug\movies-for-lunar-new-year.ico" />
+  </Product>
+</Wix>

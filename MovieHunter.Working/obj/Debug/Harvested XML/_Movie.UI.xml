@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="Movie.UI.Binaries">
+            <Component Id="cmp6E2D640A334752752E6AEB9D8FA21C96" Guid="{CA2D710F-17F0-41E9-9FD8-B2C8B5729D9B}">
+                <File Id="fil62DA9AA4318CF326678F731697067D3B" Source="$(var.Movie.UI.TargetDir)\Movie.UI.exe" />
+            </Component>
+            <Component Id="cmp74996AE166CD78167987B47B419D4825" Guid="{9C628D2E-61CE-4217-B31C-A0E8B3781ECF}">
+                <File Id="fil46ADB4C4AB140E3A24F30DC685D84F14" Source="$(var.Movie.UI.TargetDir)\Movie.UI.exe.config" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="Movie.UI.Binaries">
+            <ComponentRef Id="cmp6E2D640A334752752E6AEB9D8FA21C96" />
+            <ComponentRef Id="cmp74996AE166CD78167987B47B419D4825" />
+        </ComponentGroup>
+    </Fragment>
+</Wix>

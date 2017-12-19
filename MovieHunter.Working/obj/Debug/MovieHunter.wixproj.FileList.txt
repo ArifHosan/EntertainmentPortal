@@ -1,0 +1,9 @@
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\MovieHunter\bin\Debug\MovieHunter.msi
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\MovieHunter\bin\Debug\MovieHunter.wixpdb
+obj\Debug\Product.wixobj
+obj\Debug\StandardUI.wixobj
+obj\Debug\pth54FF536312DE4E70BBF7C8519BE32A74\_Movie.UI.wixobj
+obj\Debug\MovieHunter.wixproj.BindContentsFileListnull.txt
+obj\Debug\MovieHunter.wixproj.BindOutputsFileListnull.txt
+obj\Debug\MovieHunter.wixproj.BindBuiltOutputsFileListnull.txt
+F:\Education Stuff\Fall 16-17\MovieSolution\MovieSolution\MovieHunter\bin\Debug\cab1.cab
